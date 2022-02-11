@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: papayawhip;
+  text-align:center;
+}
+
+header {
+  background-color: green;
+  border-color: peru;
+  border-style: solid;
+  border-radius: 20px;
+  flex: 1;
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+.btn {
+  padding-top: 10px;
+  border-radius: 10px;
+  border:solid springgreen;
+  background-color: plum;
+  color:red;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
